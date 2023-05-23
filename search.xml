@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>测试</title>
-    <url>/2023/05/21/text/</url>
-    <content><![CDATA[<p>在这里写一句话：</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>text</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2023/05/20/hello-world/</url>
     <content><![CDATA[<span id="more"></span>
@@ -31,5 +19,17 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2023/05/21/text/</url>
+    <content><![CDATA[<p>在这里写一句话：</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>text</tag>
+      </tags>
   </entry>
 </search>
