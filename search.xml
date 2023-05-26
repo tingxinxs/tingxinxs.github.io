@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/05/20/hello-world/</url>
-    <content><![CDATA[<span id="more"></span>
-
-<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>博客搭建</title>
     <url>/2023/05/26/bo-ke-da-jian/</url>
     <content><![CDATA[<h1 id="用github-Git-hexo搭建个人Blog"><a href="#用github-Git-hexo搭建个人Blog" class="headerlink" title="用github+Git+hexo搭建个人Blog"></a>用github+Git+hexo搭建个人Blog</h1><p>对于搭建博客，我只能说简单但需要耐心，报错就得到各个地方找，当然我会在本文中写下一些我踩过的坑。</p>
@@ -28,6 +8,7 @@
 <h2 id="1-Github"><a href="#1-Github" class="headerlink" title="1.Github"></a>1.Github</h2><p>​	首先你得有一个<a href="https://github.com/">GitHub</a> 的账号。</p>
 <h2 id="2-Git"><a href="#2-Git" class="headerlink" title="2.Git"></a>2.Git</h2><p>​	在官网上下载<a href="https://git-scm.com/">Git (git-scm.com)</a>  ，</p>
 <p>​	windows用户可以直接从右边下载，其它用户可以进Downloads选择自己的系统进行下载。</p>
+<p><img src="https://s2.loli.net/2023/05/26/TZPR51nGyobxlWa.png"></p>
 <p>可以参考廖雪峰老师的教程：<a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站 (liaoxuefeng.com)</a> 。</p>
 <p>​	安装好后，选择打开 Git Bash  ；</p>
 <p>​	输入git得到如下图就说明git的安装成功了：</p>
@@ -58,7 +39,13 @@ git config --global user.email&quot;******@***.com&quot;（你申请的github用
 
 <p>还不行？不急我还有一招！</p>
 <h2 id="4-关于域名"><a href="#4-关于域名" class="headerlink" title="4.关于域名"></a>4.关于域名</h2><p>​	你可以买一个你喜欢的域名（买的话是要身份证的，如果你买的是大陆的还要icp备案（有一说一，这玩意很烦，所以我买了.com而且买的我就等了一小会，很快，何况我的域名也不贵，这里就不细说了，腾讯云，阿里云什么的都可以。)当然也有<em><strong>免费</strong></em> 的，比如<em><strong>eu.org</strong></em>（但是申请的时间比较长）可以自己找找。</p>
-<h2 id="5-踩过的坑："><a href="#5-踩过的坑：" class="headerlink" title="5.踩过的坑："></a>5.踩过的坑：</h2><pre class="line-numbers language-none"><code class="language-none">warning: HTTPS connections may not be secure. See https:&#x2F;&#x2F;aka.ms&#x2F;gcm&#x2F;tlsverify for more information.
+<p>###(1)、关于SSL证书</p>
+<p>​	相关内容在修订ing~</p>
+<p>##5.安装nodejs和Hexo</p>
+<p>​	首先我们先在GitHub上创立一个仓库，</p>
+<p>​	相关内容在修订ing~</p>
+<p>##6.踩过的坑：</p>
+<pre class="line-numbers language-none"><code class="language-none">warning: HTTPS connections may not be secure. See https:&#x2F;&#x2F;aka.ms&#x2F;gcm&#x2F;tlsverify for more information.
 fatal: unable to access &#39;https:&#x2F;&#x2F;github.com&#x2F;tingxinxs&#x2F;tingxinxs.github.io.git&#x2F;&#39;: Recv failure: Connection was reset
 FATAL Something&#39;s wrong. Maybe you can find the solution here: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;troubleshooting.html
 Error: Spawn failed
@@ -68,8 +55,11 @@ Error: Spawn failed
     at ChildProcess._handle.onexit (node:internal&#x2F;child_process:291:12)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><del>这多半是寄了。</del>   </p>
-<h1 id="用七牛云为博客搭建图床"><a href="#用七牛云为博客搭建图床" class="headerlink" title="用七牛云为博客搭建图床"></a>用七牛云为博客搭建图床</h1><p>​	emmmm为什么我用这个呢，因为免费啊！！！注：国内要备案，所以我选择了国外，尝试用了一下，不错的呢，如果后面发生什么情况了我再来修改。</p>
-<pre class="line-numbers language-none"><code class="language-none"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+<h1 id="为博客搭建图床"><a href="#为博客搭建图床" class="headerlink" title="为博客搭建图床"></a>为博客搭建图床</h1><h2 id="1-用七牛云搭建"><a href="#1-用七牛云搭建" class="headerlink" title="1.用七牛云搭建"></a>1.用七牛云搭建</h2><p>​	emmmm为什么我用这个呢，因为免费啊！！！注：国内要备案，所以我选择了国外，尝试用了一下，不错的呢，如果后面发生什么情况了我再来修改。</p>
+<pre class="line-numbers language-none"><code class="language-none"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>相关内容在修订ing~</p>
+]]></content>
       <categories>
         <category>教程</category>
       </categories>
@@ -88,5 +78,25 @@ Error: Spawn failed
       <tags>
         <tag>text</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/05/20/hello-world/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
 </search>
