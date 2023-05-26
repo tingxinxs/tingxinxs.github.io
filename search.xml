@@ -21,6 +21,18 @@
 ]]></content>
   </entry>
   <entry>
+    <title>测试</title>
+    <url>/2023/05/21/text/</url>
+    <content><![CDATA[<p>在这里写一句话：</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>text</tag>
+      </tags>
+  </entry>
+  <entry>
     <title></title>
     <url>/2023/05/24/bo-ke-da-jian/</url>
     <content><![CDATA[<p>#用github+Git+hexo搭建个人Blog</p>
@@ -30,11 +42,11 @@
 <p>​	首先你得有一个<a href="https://github.com/">GitHub</a> 的账号。</p>
 <p>##2.Git</p>
 <p>​	在官网上下载<a href="https://git-scm.com/">Git (git-scm.com)</a>  ，</p>
-<p>​	windows用户可以直接从右边下载，其它用户可以进Downloads选择自己的系统进行下载。<img src="http://rv7ebhuwy.bkt.gdipper.com/%247%5D%25NUIPUQNOY%28KZ2TUWT5S.png" alt="1"> </p>
+<p>​	windows用户可以直接从右边下载，其它用户可以进Downloads选择自己的系统进行下载。</p>
+<p><img src="http://rv7ebhuwy.bkt.gdipper.com/XMQ%5B12%7DRJLY1U9%40L%5BV2T%29%25S.png"></p>
 <p>可以参考廖雪峰老师的教程：<a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站 (liaoxuefeng.com)</a> 。</p>
 <p>​	安装好后，选择打开 Git Bash  ；</p>
 <p>​	输入git得到如下图就说明git的安装成功了：</p>
-<p><img src="http://rv7ebhuwy.bkt.gdipper.com/5QFNQM~ADSW%5BQB%29WN%29Q%40~WV.png" alt="git"></p>
 <p>此时你的 Git 就已经安装完成啦！ </p>
 <p>##3.绑定GitHub</p>
 <p>​	为什么要绑定GitHub呢？其实就是为了方便我们上传文件。 用SSH协议来上传文件是很方便的。感兴趣的可以了解一下什么是SSH：<a href="https://blog.csdn.net/qq_35246620/article/details/54317740"> 详述 SSH 的原理及其应用_ssh三种基础应用_CG国斌的博客-CSDN博客</a>  在我们安装好git bush时就自带了SSH 。</p>
@@ -46,11 +58,11 @@ cat id_rsa.pub<span aria-hidden="true" class="line-numbers-rows"><span></span><s
 
 <p>出来的就是你的公钥啦。</p>
 <p>​	接下来进入我们的 GitHub 主页，先点击右上角，再点击 <strong>settings</strong> ，在左边找到 <strong>SSH and GPG keys，</strong>再点击 <em><strong>New SSH key.</strong></em> 把刚刚的公钥粘贴进去就ok了(Title你可以随便，不填都可以)。</p>
-<p>​	可以通过在 Git Bash 中输入 </p>
+<p>​	可以通过在 Git Bash 中输入 ：</p>
 <pre class="line-numbers language-none"><code class="language-none">ssh -T git@github.com<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>进行检验,问你sure不sure就直接yes就行。</p>
-<p>然后找一个地方放你的Blog文件夹，</p>
+<p>然后找一个地方放你的Blog文件夹，在文件中鼠标右击打开git bush （嫌弃每次打开都要点一下显示更多选项的可以按住shift再鼠标右击），然后依次输入一下的指令：</p>
 <pre class="line-numbers language-none"><code class="language-none">npm install -g hexo-cli
 hexo init
 hexo g
@@ -62,8 +74,6 @@ hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
 git config --global user.email&quot;******@***.com&quot;（你申请的github用的邮箱）<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>还不行？不急我还有一招！</p>
-<pre><code>#
-</code></pre>
 <h2 id="4-关于域名"><a href="#4-关于域名" class="headerlink" title="4.关于域名"></a>4.关于域名</h2><p>​	你可以买一个你喜欢的域名（买的话是要身份证的，如果你买的是大陆的还要icp备案（有一说一，这玩意很烦，所以我买了.com而且买的我就等了一小会，很快，何况我的域名也不贵，这里就不细说了，腾讯云，阿里云什么的都可以。)当然也有<em><strong>免费</strong></em> 的，比如<em><strong>eu.org</strong></em>（但是申请的时间比较长）可以自己找找。</p>
 <p>##5.踩过的坑：</p>
 <pre class="line-numbers language-none"><code class="language-none">warning: HTTPS connections may not be secure. See https:&#x2F;&#x2F;aka.ms&#x2F;gcm&#x2F;tlsverify for more information.
@@ -78,18 +88,6 @@ Error: Spawn failed
 <p><del>这多半是寄了。</del>   </p>
 <p>#用七牛云为博客搭建图床</p>
 <p>​	emmmm为什么我用这个呢，因为免费啊！！！注：国内要备案，所以我选择了国外，尝试用了一下，不错的呢，如果后面发生什么情况了我再来修改。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>测试</title>
-    <url>/2023/05/21/text/</url>
-    <content><![CDATA[<p>在这里写一句话：</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>text</tag>
-      </tags>
+<pre class="line-numbers language-none"><code class="language-none"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
   </entry>
 </search>
