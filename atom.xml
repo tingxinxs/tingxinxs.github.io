@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-06-02T11:37:17.649Z</updated>
+  <updated>2023-09-06T11:21:49.539Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown语法</title>
+    <link href="http://example.com/2023/09/06/markdown-yu-fa-xue-xi/"/>
+    <id>http://example.com/2023/09/06/markdown-yu-fa-xue-xi/</id>
+    <published>2023-09-06T11:21:05.000Z</published>
+    <updated>2023-09-06T11:21:49.539Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Markdown-围栏代码块"><a href="#Markdown-围栏代码块" class="headerlink" title="Markdown 围栏代码块"></a><em><strong>Markdown 围栏代码块</strong></em></h1><p>Markdown基本语法允许您通过将行缩进四个空格或一个制表符来创建<a href="https://markdown.com.cn/basic-syntax/code-blocks.html">代码块</a>。如果发现不方便，请尝试使用受保护的代码块。根据Markdown处理器或编辑器的不同，您将在代码块之前和之后的行上使用三个反引号（(&#96;&#96;&#96;）或三个波浪号（~~~）。</p><h1 id="markdown-删除线"><a href="#markdown-删除线" class="headerlink" title="markdown 删除线"></a><em><strong>markdown 删除线</strong></em></h1><p>您可以通过在单词中心放置一条水平线来删除单词。结果看起来像这样。此功能使您可以指示某些单词是一个错误，要从文档中删除。若要删除单词，请在单词前后使用两个波浪号~~。</p><h1 id="Markdown-使用-Emoji-表情"><a href="#Markdown-使用-Emoji-表情" class="headerlink" title="Markdown 使用 Emoji 表情"></a><em><strong>Markdown 使用 Emoji 表情</strong></em></h1><p>有两种方法可以将表情符号添加到Markdown文件中：将表情符号复制并粘贴到Markdown格式的文本中，或者键入emoji shortcodes。</p><h2 id="复制和粘贴表情符号"><a href="#复制和粘贴表情符号" class="headerlink" title="#复制和粘贴表情符号"></a><a href="#%E5%A4%8D%E5%88%B6%E5%92%8C%E7%B2%98%E8%B4%B4%E8%A1%A8%E6%83%85%E7%AC%A6%E5%8F%B7">#</a><em><strong>复制和粘贴表情符号</strong></em></h2><p>在大多数情况下，您可以简单地从<a href="https://emojipedia.org/">Emojipedia</a> 等来源复制表情符号并将其粘贴到文档中。许多Markdown应用程序会自动以Markdown格式的文本显示表情符号。从Markdown应用程序导出的HTML和PDF文件应显示表情符号。</p><p><em><strong>Tip:</strong></em> 如果您使用的是静态网站生成器，请确保将HTML页面编码为UTF-8。.</p><h2 id="使用表情符号简码"><a href="#使用表情符号简码" class="headerlink" title="#使用表情符号简码"></a><a href="#%E4%BD%BF%E7%94%A8%E8%A1%A8%E6%83%85%E7%AC%A6%E5%8F%B7%E7%AE%80%E7%A0%81">#</a><em><strong>使用表情符号简码</strong></em></h2><p>一些Markdown应用程序允许您通过键入表情符号短代码来插入表情符号。这些以冒号开头和结尾，并包含表情符号的名称。</p><h2 id="禁用自动URL链接"><a href="#禁用自动URL链接" class="headerlink" title="禁用自动URL链接"></a><em><strong>禁用自动URL链接</strong></em></h2><p>如果您不希望自动链接URL，则可以通过将URL表示为带反引号的代码来删除该链接。</p><h1 id="Markdown-表格"><a href="#Markdown-表格" class="headerlink" title="Markdown 表格"></a><em><strong>Markdown 表格</strong></em></h1><p>要添加表，请使用三个或多个连字符（—）创建每列的标题，并使用管道（|）分隔每列。您可以选择在表的任一端添加管道。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Markdown-围栏代码块&quot;&gt;&lt;a href=&quot;#Markdown-围栏代码块&quot; class=&quot;headerlink&quot; title=&quot;Markdown 围栏代码块&quot;&gt;&lt;/a&gt;&lt;em&gt;&lt;strong&gt;Markdown 围栏代码块&lt;/strong&gt;&lt;/em&gt;&lt;/h1
+      
+    
+    </summary>
+    
+      <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>博客搭建教程</title>
